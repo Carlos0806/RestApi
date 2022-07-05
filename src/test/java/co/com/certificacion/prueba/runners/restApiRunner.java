@@ -10,8 +10,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = "co.com.certificacion.prueba.stepdefinitions",
-        tags = "@create"
+        glue = "co.com.certificacion.prueba.stepdefinitions"
 
         )
 
